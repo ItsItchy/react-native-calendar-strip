@@ -447,7 +447,7 @@ class CalendarStrip extends Component {
           break;
         }
         if (date.isSame(startingDate, "day")) {
-          initialScrollerIndex = i;
+          initialScrollerIndex = i - 3;
         }
         datesList.push({ date });
       } else {
